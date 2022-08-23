@@ -1,0 +1,89 @@
+.fithusiast__header {
+    display: flex;
+}
+
+.fithusiast__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.fithusiast__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.fithusiast__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #291b69;
+
+    margin-top: 1.5rem;
+}
+
+.fithusiast__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.fithusiast__header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .fithusiast__header {
+        flex-direction: column;
+    }
+
+    .fithusiast__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .fithusiast__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .fithusiast__header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .fithusiast__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .fithusiast__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .fithusiast__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .fithusiast__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
